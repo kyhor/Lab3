@@ -91,6 +91,10 @@ public class MainActivity extends AppCompatActivity {
         return a+b;
     }
 
+    public  int sub(int a, int b){
+
+        return a-b;
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
