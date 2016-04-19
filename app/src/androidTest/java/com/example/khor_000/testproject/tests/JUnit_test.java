@@ -19,6 +19,6 @@ public class JUnit_test extends ActivityInstrumentationTestCase2<MainActivity> {
 
         int sumtest = mainActivity.sum(10,20);
 
-        assertEquals(10+20, mainActivity.sub(10,20));
+        assertEquals(10+20, mainActivity.sum(10,20));
     }
 }
